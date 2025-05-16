@@ -123,3 +123,36 @@ Oi, me chamo Railane, e atualmente estou em cursos da Embarcados e desenvolvimen
 
 </body>
 </html>
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+ .skill {
+      margin-bottom: 20px;
+    }
+    .progress-bar {
+      width: 50%;
+      height: 20px;
+      background-color: #e0e0e0;
+      border-radius: 10px;
+    }
+    .progress {
+      height: 100%;
+      background-color: #3498db;
+      border-radius: 10px;
+    }
+    .galeria {
+      border-style: double;
+      padding: 5%;
+      display: grid;
+      gap: 5%;
+      justify-content: center;
+      align-content: center;
+      grid-auto-flow: row;
+      grid-template-columns: repeat(4, auto);
+    }
+    .interesses {
+      width: 150px;
+      height: 150px;
+    }
