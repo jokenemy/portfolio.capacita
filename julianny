@@ -1,0 +1,125 @@
+# Portfólio Fullstack - Capacita BR
+
+## O que é o projeto  🚀
+
+Este repositório contém o projeto final do módulo basico de Desenvolvimento Fullstack do programa Capacita BR.
+O objetivo é apresentar um portfólio em grupo com as principais habilidades adquiridas durante esse primeiro modulo do curso, aplicando os conhecimentos em: **HTML**, **CSS** e **GIT/GitHub**.
+
+<p align="center">
+  <a href="https://devicon.dev/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="50" />
+  </a>
+  <a href="https://devicon.dev/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="50" />
+  </a>
+  <a href="https://devicon.dev/">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" width="50"/>
+  </a>
+  <a href="https://devicon.dev/">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="50" />
+  </a>
+</p>
+
+## 🎯 Objetivos
+
+- Estimular o trabalho em equipe.
+- Compartilhar o conhecimento com colegas, por meio da troca de experiências, ajuda e dúvidas.
+- Criar um portfólio profissional colaborativo.
+- Praticar habilidades em HTML, CSS e versionamento com GIT e GITHUB.
+
+## 👩‍💻 Sobre mim
+
+Oi, me chamo Railane, e atualmente estou em cursos da Embarcados e desenvolvimento full stack, com isso e um pouco mais, pretendo investir em projetos que envolvem causas sociais e ambientais.
+
+- 💻 Interesses: Progamação de sistemas, programação e montagem de robôs.
+- 📚 Estudando atualmente: Python, Java, Firmware
+- 📫 Contato: [railanemesquita34@gmail.com]
+
+## 🛠️ Principais Comandos GIT utilizados
+
+| Comando                | Função                                         |
+|------------------------|------------------------------------------------|
+| git init               | Cria um repositório Git local.                |
+| git add .              | Adiciona todos os arquivos alterados.         |
+| git commit -m "msg"    | Salva as alterações com uma mensagem.         |
+| git push               | Envia os commits para o GitHub.               |
+| git pull               | Baixa atualizações do GitHub.                 |
+| git status             | Mostra os arquivos modificados.               |
+| git log                | Lista os commits realizados.                  |
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Portfólio</title>
+
+</head>
+<body>
+
+  <header></header>
+
+  <main>
+    <!-- Introdução -->
+    <div class="introducao">
+      <div class="textoApresentacao">
+        <h1 class="titulo">Apresentação</h1>
+        <p class="paragrafo">texto de apresentação*</p>
+      </div>
+      <img src="img/foto.jpg" alt="foto" />
+    </div>
+
+    <!-- Continuação -->
+    <div class="continuacao">
+      <h1 class="titulo">Histórico profissional/acadêmico</h1>
+      <p class="texto">texto de apresentação*</p>
+
+      <h1 class="titulo">Interesses e especialidades técnicas</h1>
+      <p class="texto">texto de apresentação*</p>
+
+      <h1 class="titulo">Contato e Redes Sociais</h1>
+      <p class="texto">texto de apresentação*</p>
+    </div>
+
+    <!-- Barra de habilidades -->
+    <div class="skill">
+      <span>Ferramenta</span>
+      <div class="progress-bar">
+        <div class="progress" style="width: 90%"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <span>Ferramenta</span>
+      <div class="progress-bar">
+        <div class="progress" style="width: 90%"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <span>Ferramenta</span>
+      <div class="progress-bar">
+        <div class="progress" style="width: 90%"></div>
+      </div>
+    </div>
+
+    <!-- Interesses -->
+    <h2>Interesses</h2>
+    <div class="galeria">
+      <img class="interesses" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfe5QANyfnkRMh6EQ6t95CWqBWe-52-UX54PViX_WslePsY2fJdghwuww&s=10" alt="" />
+      <img class="interesses" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfe5QANyfnkRMh6EQ6t95CWqBWe-52-UX54PViX_WslePsY2fJdghwuww&s=10" alt="" />
+      <img class="interesses" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfe5QANyfnkRMh6EQ6t95CWqBWe-52-UX54PViX_WslePsY2fJdghwuww&s=10" alt="" />
+      <img class="interesses" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfe5QANyfnkRMh6EQ6t95CWqBWe-52-UX54PViX_WslePsY2fJdghwuww&s=10" alt="" />
+      <img class="interesses" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfe5QANyfnkRMh6EQ6t95CWqBWe-52-UX54PViX_WslePsY2fJdghwuww&s=10" alt="" />
+      <img class="interesses" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfe5QANyfnkRMh6EQ6t95CWqBWe-52-UX54PViX_WslePsY2fJdghwuww&s=10" alt="" />
+      <img class="interesses" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfe5QANyfnkRMh6EQ6t95CWqBWe-52-UX54PViX_WslePsY2fJdghwuww&s=10" alt="" />
+      <img class="interesses" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfe5QANyfnkRMh6EQ6t95CWqBWe-52-UX54PViX_WslePsY2fJdghwuww&s=10" alt="" />
+      <img class="interesses" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfe5QANyfnkRMh6EQ6t95CWqBWe-52-UX54PViX_WslePsY2fJdghwuww&s=10" alt="" />
+      <img class="interesses" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfe5QANyfnkRMh6EQ6t95CWqBWe-52-UX54PViX_WslePsY2fJdghwuww&s=10" alt="" />
+      <img class="interesses" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfe5QANyfnkRMh6EQ6t95CWqBWe-52-UX54PViX_WslePsY2fJdghwuww&s=10" alt="" />
+    </div>
+
+  </main>
+
+  <footer></footer>
+
+</body>
+</html>
