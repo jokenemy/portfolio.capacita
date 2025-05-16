@@ -1,0 +1,26 @@
+<section id="depoimentos">
+  <h2>Depoimentos</h2>
+  <p class="subtitulo">Depoimentos</p>
+  
+  <div class="container">
+  </div>
+</section>
+
+#depoimentos {
+  padding: 4rem 1rem;
+  background-color: #f9f9f9;
+}
+
+#depoimentos h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+#depoimentos .subtitulo {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #777;
+  font-size: 1rem;
+}
