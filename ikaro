@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>4 & 6</title>
+        <style>
+            .skill {
+                margin-bottom: 20px;
+            }
+            .progress-bar {
+                width: 50%;
+                height: 20px;
+                background-color: #e0e0e0;
+                border-radius: 10px;
+            }
+            .progress {
+                height: 100%;
+                background-color: #3498db;
+                border-radius: 10px;
+            }
+            .galeria {
+                border-style: double;
+                padding: 5%;
+                display: grid;
+                gap: 5%;
+                justify-content: center;
+                align-content: center;
+                grid-auto-flow: row;
+                grid-template-columns: repeat(4, auto);
+            }
+            .interesses {
+                width: 150px;
+                height: 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="skill"></div>
+            <span>Linguagens de programaçãoa</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 60%"></div>
+            </div>
+        </div>
+        <div class="skill"></div>
+            <span>Elétrica/hardware</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 90%"></div>
+            </div>
+        <div class="skill"></div>
+            <span>Software</span>
+            <div class="progress-bar">
+                <div class="progress" style="width: 50%"></div>
+        </div>
+
+
+
+
+<h2>Interesses</h2>
+        <div class="galeria">
+            <img class="interesses" src="Imagem do WhatsApp de 2025-05-16 à(s) 19.53.25_88c71e16.jpg"/>
+            <img class="interesses" src="20250509_165334.png"/>
+            <img class="interesses" src="flower-garden-1008668_1280.webp"/> 
+            <img class="interesses" src="Imagem do WhatsApp de 2025-05-16 à(s) 19.41.45_7d71baa.jpg"/>
+    </body>
+</html>
